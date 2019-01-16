@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio 11</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var phrase = prompt("Escriba una frase: ");
+		var i;
+		var repeat=0;
+		for (i=0; i < phrase.length; i++){
+			if(phrase.charAt(i)==="a" || phrase.charAt(i)==="A" || phrase.charAt(i)==="e" || phrase.charAt(i)==="E" || phrase.charAt(i)==="i" || phrase.charAt(i)==="I" || phrase.charAt(i)==="o" || phrase.charAt(i)==="O" || phrase.charAt(i)==="u" || phrase.charAt(i)==="U"){
+				repeat++;
+			}
+		}
+		document.write("Las vocales se repiten " + repeat + " veces.");
+	</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio 16</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var number1 = parseInt(prompt("Escriba un número: "));
+		var number2 = parseInt(prompt("Escriba un número: "));
+		var i;
+		for(i=0; i<=number1; i++){
+			if((number1%i)==0 && (number2%i)==0){
+				document.write("<br>El divisor comun es " + i + ".");
+			}
+		}
+	</script>
+</body>
+</html>

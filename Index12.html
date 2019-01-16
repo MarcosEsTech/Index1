@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio 12</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var phrase = prompt("Escriba una frase: ");
+		var i;
+		var repeatA=0;
+		var repeatE=0;
+		var repeatI=0;
+		var repeatO=0;
+		var repeatU=0;
+		for (i=0; i < phrase.length; i++){
+			if(phrase.charAt(i)==="a" || phrase.charAt(i)==="A"){
+				repeatA++;
+			}
+		}
+		document.write("'A' se repite " + repeatA + " veces.");
+
+		for (i=0; i < phrase.length; i++){
+			if(phrase.charAt(i)==="e" || phrase.charAt(i)==="E"){
+				repeatE++;
+			}
+		}
+		document.write("<br>'E' se repite " + repeatE + " veces.");
+
+		for (i=0; i < phrase.length; i++){
+			if(phrase.charAt(i)==="i" || phrase.charAt(i)==="I"){
+				repeatI++;
+			}
+		}
+		document.write("<br>'I' se repite " + repeatI + " veces.");
+
+		for (i=0; i < phrase.length; i++){
+			if(phrase.charAt(i)==="o" || phrase.charAt(i)==="O"){
+				repeatO++;
+			}
+		}
+		document.write("<br>'O' se repite " + repeatO + " veces.");
+
+		for (i=0; i < phrase.length; i++){
+			if(phrase.charAt(i)==="u" || phrase.charAt(i)==="U"){
+				repeatU++;
+			}
+		}
+		document.write("<br>'U' se repite " + repeatU + " veces.");
+	</script>
+</body>
+</html>
